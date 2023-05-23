@@ -54,3 +54,10 @@ This query will return all pairs of employees who work in the same department.
 
 Remember, all these examples are standard SQL, so they should work in any relational database management system, including Oracle, Microsoft SQL Server, MySQL, and PostgreSQL, among others. However, some systems might have their own additional types of joins or other specific syntax.
 
+## JOIN...USING
+
+The JOIN...USING clause is used to combine rows from two or more tables based on a specified column that has the same name in each table. It is a shorthand syntax for joining tables based on columns with matching names. Here's an example:
+
+```sql
+SELECT * FROM table1 JOIN table2 USING (column_name);
+```
